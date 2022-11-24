@@ -30,6 +30,15 @@
 				<Prp name="relpath" type="S" value="24_11_2022_12_38_40_957\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44889.5372697569"/>
+				<Prp name="description" type="S" value="Appium"/>
+				<Prp name="key" type="S" value="{D9D558CF-B4C2-404C-9C29-CA6E2DA58F6A}"/>
+				<Prp name="nameofroot" type="S" value="Appium"/>
+				<Prp name="relpath" type="S" value="24_11_2022_12_53_40_107\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

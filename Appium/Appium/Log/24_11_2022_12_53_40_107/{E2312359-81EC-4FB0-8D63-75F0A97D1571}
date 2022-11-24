@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem4 [Script\PresetsPageTest - verify_presets_screen_txt]"/>
+				<Prp name="end time" type="D" value="44889.5374977778"/>
+				<Prp name="start time" type="D" value="44889.5374933565"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="details" type="S" value="{249F3DE0-3522-4121-96C0-DCE26A07C1F8}"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem1 [Script\SetupPage - launch_appium]"/>
+				<Prp name="end time" type="D" value="44889.5374253704"/>
+				<Prp name="start time" type="D" value="44889.5372699421"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{2E8D28CE-EDA6-4865-8E44-5D7E3B2D42AD}"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem5 [Script\SimplePageTest - verify_user_can_start_server]"/>
+				<Prp name="end time" type="D" value="44889.5375333912"/>
+				<Prp name="start time" type="D" value="44889.5374978356"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="details" type="S" value="{C3BCF5DC-F25B-474C-95CA-25336FEF7979}"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem6 [Script\SetupPage - close_appium]"/>
+				<Prp name="end time" type="D" value="44889.5375606944"/>
+				<Prp name="start time" type="D" value="44889.5375334607"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="details" type="S" value="{8AA06CC6-19B1-45DC-B0EE-E607DF0C7D28}"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem2 [Script\LandingPageTest - verify_appium_logo]"/>
+				<Prp name="end time" type="D" value="44889.5374265162"/>
+				<Prp name="start time" type="D" value="44889.537425463"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{A17C4F9D-C884-4757-B4DE-7F87160215AF}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem3 [Script\AdvancedPageTest - verify_user_can_enter_general_details]"/>
+				<Prp name="end time" type="D" value="44889.5374933102"/>
+				<Prp name="start time" type="D" value="44889.5374265972"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="details" type="S" value="{02F8664D-C5AD-48C6-8594-8BB5072FDC19}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
