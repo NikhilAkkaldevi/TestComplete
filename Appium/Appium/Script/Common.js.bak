@@ -1,0 +1,10 @@
+﻿
+
+function terminateProcess(enterApplicationNameTxt)
+{
+      var Process = Sys.WaitProcess(enterApplicationNameTxt);
+      if (Process.Exists)
+      {
+        Process.Terminate();
+      }
+}

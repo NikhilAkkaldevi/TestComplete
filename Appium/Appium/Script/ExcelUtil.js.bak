@@ -1,0 +1,66 @@
+﻿
+//USEUNIT Common
+
+
+
+
+
+function readDataFromExcel(excelFileName, sheetName)
+{ 
+      Common.terminateProcess("Excel.Application");
+ 
+      var Excel = Sys.OleObject("Excel.Application");
+      var workbook = Excel.Workbooks.Open(ProjectSuite.path +"Test Data\\" + excelFileName +".xlsx");
+      var worksheet= workbook.Sheets
+      
+        if (!ProjectSuite.Variables.VariableExists("UserData"))
+        {
+            ProjectSuite.Variables.AddVariable("UserData", "Table");
+        }  
+        else
+        {
+            ProjectSuite.Variables.RemoveVariable("UserData");
+            ProjectSuite.Variables.AddVariable("UserData", "Table")
+        }
+        
+      var Login_ElementLibrary = ProjectSuite.Variables.VariableByName("UserData")
+      
+        for (var i = 1; i<= worksheet.Count; i++) 
+        { 
+           var WorkSheetName = worksheet.Item(i).Name; 
+           
+             if (WorkSheetName == SheetName)
+             {
+               Excel.Worksheets.Item(i).Activate();
+             }
+        }
+      
+      var val = [], x = 0, y;
+      var RowCount = Excel.ActiveSheet.UsedRange.Rows.Count;
+      var ColumnCount = Excel.ActiveSheet.UsedRange.Columns.Count;
+      
+        for (var i = 1; i <= RowCount; i++)
+        {
+            Login_ElementLibrary.RowCount = RowCount-1;
+            y=0;
+            
+            for (var j = 1; j <= ColumnCount; j++)
+            
+              if (i == 1)
+              {
+                  Login_ElementLibrary.AddColumn(VarToString(Excel.Cells.Item(i, j)));
+                  x = -1;
+              }
+              else
+              {
+                  ProjectSuite.Variables.UserData.$set("item", y, x, (VarToString(Excel.Cells.Item(i, j))));
+                  val.push(VarToString(Excel.Cells.Item(i, j)));
+                  y = y +1;
+              }
+              
+            x = x+1;
+        }
+      Log.Message(val);
+
+      Excel.Quit();
+}

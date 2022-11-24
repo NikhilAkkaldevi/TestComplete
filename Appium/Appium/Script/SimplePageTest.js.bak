@@ -1,1 +1,39 @@
-﻿
+﻿//USEUNIT LandingPage
+//USEUNIT SimplePage
+//USEUNIT ServerIsRunningPage
+
+
+function verify_user_can_start_server(Param1,Param2)
+{
+      TestData_From_Excel("TestData", "Advanced")
+      var ArrayVar = ProjectSuite.Variables.UserData
+      LandingPage.clickOnAdvanceBtn();
+      
+      for(var itr=0; itr<=ArrayVar.RowCount-1;itr++)
+      {            
+          AdvancedPage.enterTxtInServerAddress(ArrayVar.item("Server Address",itr));
+          AdvancedPage.enterTxtInServerPort(ArrayVar.item("Server Port",itr));
+          AdvancedPage.enterTxtInLogFilePath(ArrayVar.item("LogFile Path",itr));
+          AdvancedPage.enterTxtLogLevel(ArrayVar.item("Log Level",itr));
+      } 
+}
+
+
+
+
+      
+      
+      
+      
+      
+ 
+      
+/*function verify_user_can_start_server(Param1,Param2)
+{
+    LandingPage.clickOnSimpleBtn();
+    SimplePage.enterTxtInHost(Param1);
+    SimplePage.enterTxtInPort(Param2);
+    LandingPage.clickOnStartServerBtn();
+    ServerIsRunningPage.verifyTheServerIsRunningTxt();
+    ServerIsRunningPage.verifyWelcomeToAppiumTxt(); 
+}*/

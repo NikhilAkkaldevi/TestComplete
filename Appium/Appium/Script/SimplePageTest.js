@@ -12,3 +12,13 @@ function verify_user_can_start_server(Param1,Param2)
     ServerIsRunningPage.verifyTheServerIsRunningTxt();
     ServerIsRunningPage.verifyWelcomeToAppiumTxt(); 
 }
+
+
+
+
+      
+      
+      
+      
+      
+ 

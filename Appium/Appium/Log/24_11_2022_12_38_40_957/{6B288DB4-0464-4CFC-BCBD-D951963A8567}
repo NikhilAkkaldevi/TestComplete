@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270778125"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='log']&quot;)"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="object right" type="I" value="940"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270847222"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Test Path' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='log']&quot;)"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Advanced button existed"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270426042"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270906829"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='loglevel']&quot;)"/>
+					<Prp name="object left" type="I" value="1025"/>
+					<Prp name="object right" type="I" value="1255"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270949537"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Debug' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='loglevel']&quot;)"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270564005"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='address']&quot;)"/>
+					<Prp name="object left" type="I" value="109"/>
+					<Prp name="object right" type="I" value="310"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270621875"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'0.0.0.0' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='address']&quot;)"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="475"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="443"/>
+					<Prp name="datetime" type="D" value="44889.5270440856"/>
+					<Prp name="click point y" type="I" value="459"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="959"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//button[.='Advanced']&quot;)"/>
+					<Prp name="object left" type="I" value="917"/>
+					<Prp name="object right" type="I" value="1001"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270464583"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (42, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//button[.='Advanced']&quot;)"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="0.0.0.0,4723,Test Path,Debug"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.527041713"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{6DA0B3F9-210A-4093-85F0-9003841EAA1E}"/>
+			<Prp name="unit 1" type="S" value="{72E17EE1-0858-4918-9E86-E096CFE5E7EF}"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Debug text entered successfully"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.527095625"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.527063588"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='port']&quot;)"/>
+					<Prp name="object left" type="I" value="403"/>
+					<Prp name="object right" type="I" value="625"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270671991"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'^a [BS]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='port']&quot;)"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270683449"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='port']&quot;)"/>
+					<Prp name="object left" type="I" value="403"/>
+					<Prp name="object right" type="I" value="625"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270719907"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'4723' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='port']&quot;)"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270864815"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='loglevel']&quot;)"/>
+					<Prp name="object left" type="I" value="1025"/>
+					<Prp name="object right" type="I" value="1255"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270895023"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'^a [BS]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='loglevel']&quot;)"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Start Server v1.18.2 element is displayed"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270479514"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="4723 text entered successfully"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.527072662"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="0.0.0.0 text entered successfully"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270628935"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 12">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Test Path text entered successfully"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270854282"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270735764"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='log']&quot;)"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="object right" type="I" value="940"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270766435"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'^a [BS]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='log']&quot;)"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="394"/>
+					<Prp name="datetime" type="D" value="44889.5270506597"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='address']&quot;)"/>
+					<Prp name="object left" type="I" value="109"/>
+					<Prp name="object right" type="I" value="310"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44889.5270552199"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'^a [BS]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Appium&quot;).Page(&quot;file:///C:/Users/n.akkaldevi/AppData/Local/Programs/Appium/resources/app/dist/index.html#/&quot;).FindElement(&quot;//input[@name='address']&quot;)"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,15 +1,24 @@
-﻿//USEUNIT LandingPage
-//USEUNIT AdvancedPage
+﻿//USEUNIT AdvancedPage
+//USEUNIT ExcelUtils
+//USEUNIT LandingPage
 
 function verify_user_can_enter_general_details()
 {
-    LandingPage.clickOnAdvanceBtn();
-    AdvancedPage.enterTxtInServerAddress("0.0.0.0");
-    AdvancedPage.enterTxtInServerPort("4723");
-    AdvancedPage.enterTxtInLogFilePath("Test");
-    AdvancedPage.enterTxtLogLevel("debugTest");
+      ExcelUtils.readDataFromExcel("TestData", "Advanced")
+      var ArrayVar = ProjectSuite.Variables.UserData
+      LandingPage.clickOnAdvanceBtn();
+      
+      for(var itr=0; itr<=ArrayVar.RowCount-1;itr++)
+      {            
+          AdvancedPage.enterTxtInServerAddress(ArrayVar.item("Server Address",itr));
+          AdvancedPage.enterTxtInServerPort(ArrayVar.item("Server Port",itr));
+          AdvancedPage.enterTxtInLogFilePath(ArrayVar.item("LogFile Path",itr));
+          AdvancedPage.enterTxtLogLevel(ArrayVar.item("Log Level",itr));
+      }
 }
 
 
 
 
+      
+      

@@ -30,7 +30,32 @@
 				<Prp name="key" type="S" value="{1EB4767E-0DA4-4D59-A68D-402745002F4B}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
-			<Node name="variables"/>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="41006400760061006E00630065006400"/>
+						</Node>
+						<Prp name="name" type="S" value="sheetName"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="540065007300740044006100740061002E0078006C0073007800"/>
+						</Node>
+						<Prp name="name" type="S" value="excelFileName"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="excelFilePath"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="UserData"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
 	</Node>

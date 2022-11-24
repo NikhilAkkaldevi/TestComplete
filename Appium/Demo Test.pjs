@@ -8,9 +8,28 @@
 			<testItem key="{75473431-F3AD-48D2-AE81-3DE0051F8128}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{8D0FC90F-3EE6-4858-9C99-1FB93B7A3B2F}" />
+	<variables key="{8D0FC90F-3EE6-4858-9C99-1FB93B7A3B2F}">
+		<data Version="4">
+			<Items>
+				<Variable Name="sheetName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="excelFileName" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="excelFilePath" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="UserData" Type="Table" Local="False">
+					<DefValue RowCount="0" ColumnCount="0">
+						<Columns />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<analysis key="{F4ABAB1C-DFDD-4AE0-BBE8-8749F0823D73}" />
-	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
 </Root>

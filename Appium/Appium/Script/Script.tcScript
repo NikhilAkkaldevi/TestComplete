@@ -13,6 +13,9 @@
 		</folder>
 		<folder name="Utility">
 			<child name="Action" key="{72E17EE1-0858-4918-9E86-E096CFE5E7EF}" path="Action.js" />
+			<child name="CommonUtils" key="{20556D9D-6187-4126-96FF-DB137004EEC6}" path="CommonUtils.js" />
+			<child name="ExcelUtils" key="{6DA0B3F9-210A-4093-85F0-9003841EAA1E}" path="ExcelUtils.js" />
+			<child name="SendMailUtils" key="{950F3770-643F-4232-96B5-A6374CBC86E5}" path="SendMailUtils.js" />
 		</folder>
 		<folder name="Pages">
 			<child name="AdvancedPage" key="{CD558F83-9D3D-4BD2-B6C5-3536C9802FAA}" path="AdvancedPage.js" />
