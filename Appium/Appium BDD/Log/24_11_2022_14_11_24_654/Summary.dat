@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Verify user can start the server"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="44889.5915671644"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object BrowserWindow(0). See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="17849"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEEAMgA0ADMANQAyAEQALQAzAEEAMAA5AC0ANABBADAAOAAtAEEAOAAwAEEALQBGADcAMgAxAEYAQQAwADQAOAAwAEMANwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="17849"/>
+						<Prp name="name" type="S" value="Launch Appium.exe"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="44889.5912714352"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Add values in advanced page"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="44889.5915671644"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page&quot; does not exist."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="Button is not existed"/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The process &quot;Appium&quot; was not found."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;Process(&quot;Appium&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;Page(&quot;*&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object Page(&quot;*&quot;). See Details for additional information."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="TypeError: Illegal invocation"/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page.FindElement&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="7416"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDAEEAMQAyADcAQwAyADUALQAwADcAMwBDAC0ANABGADYAMAAtADgARgBCADQALQBGAEIAQgAwAEUANwAwADcAMQAxADMARQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="durationwithoutchildren" type="I" value="7416"/>
+						<Prp name="name" type="S" value="Verify the text is displayed or not"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="44889.5914809259"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Close Appium.exe"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="44889.5915671644"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="25265"/>
+				<Prp name="name" type="S" value="Appium BDD"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="incompletedtests" type="I" value="3"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44889.5912714352"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="Demo Test"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44889.5915682292"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="host" type="S" value="SS-LP256"/>
+		<Prp name="incompletedtests" type="I" value="3"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Appium BDD"/>
+		<Prp name="user" type="S" value="N.Akkaldevi"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="44889.5912576736"/>
+		<Prp name="key" type="S" value="{4067A36F-A90C-4D1F-836E-C3DE2D829B95}"/>
+	</Node>
+</Nodes>

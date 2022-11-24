@@ -2,10 +2,12 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{E7BA3FF6-C3BD-4ADE-8116-622A97D7F503}">
 	<children>
 		<child name="Appium" key="{75473431-F3AD-48D2-AE81-3DE0051F8128}" path="Appium\Appium.mds" />
+		<child name="Appium BDD" key="{3643B055-8FE7-4AFC-BC73-0DB956723136}" path="Appium BDD\Appium BDD.mds" />
 	</children>
 	<testItems key="{C3468AD8-519D-4567-9322-B2F787521B2C}">
 		<children>
 			<testItem key="{75473431-F3AD-48D2-AE81-3DE0051F8128}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3643B055-8FE7-4AFC-BC73-0DB956723136}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{8D0FC90F-3EE6-4858-9C99-1FB93B7A3B2F}">

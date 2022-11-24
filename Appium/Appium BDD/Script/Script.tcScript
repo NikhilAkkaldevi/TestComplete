@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Page Objects">
+			<child name="AdvancedPage" key="{4866264E-8693-4417-9E50-69D40A1EABAE}" path="AdvancedPage.js" />
+			<child name="LandingPage" key="{BB25F358-282D-4851-AA2F-14CDFFE71A40}" path="LandingPage.js" />
+			<child name="PresetsPage" key="{5B693955-4899-43CA-BBCF-93B58B170721}" path="PresetsPage.js" />
+			<child name="SimplePage" key="{56A2C9E6-C3E1-495A-93FB-6AFBBDCCECF6}" path="SimplePage.js" />
+			<child name="ServerIsRunningPage" key="{9560E9EC-4DCB-45BB-A857-4E2255825C18}" path="ServerIsRunningPage.js" />
+			<child name="SetupPage" key="{3A397093-F7BA-4C3F-B2FE-0A3C84F02B92}" path="SetupPage.js" />
+		</folder>
+		<folder name="Step Definitions">
+			<child name="AdvancedPageTest" key="{81B0643D-6879-4394-8161-CA31C1A01AE5}" path="AdvancedPageTest.js" />
+			<child name="LandingPageTest" key="{8629C43F-B75D-4375-AD38-2A3E1E1E42B3}" path="LandingPageTest.js" />
+			<child name="PresetsPageTest" key="{049A1F40-B4BA-4079-946B-4435068C128B}" path="PresetsPageTest.js" />
+			<child name="ServerIsRunningPageTest" key="{7BE736D5-8296-496E-BA62-D8C51D4673F0}" path="ServerIsRunningPageTest.js" />
+			<child name="SimplePageTest" key="{885C33CE-F598-4717-91DE-55C8C22D159E}" path="SimplePageTest.js" />
+			<child name="SetupPageTest" key="{B2D7DC58-DCDB-4F2A-B9CB-8949B390DBB6}" path="SetupPageTest.js" />
+		</folder>
+		<folder name="Utility">
+			<child name="Action" key="{B2D8F713-5CB3-412A-9780-380967D70AB9}" path="Action.js" />
+			<child name="CommonUtils" key="{95D758FB-2EC6-4D1F-B032-972896AFB880}" path="CommonUtils.js" />
+			<child name="ExcelUtils" key="{8B770B3B-6B14-4423-B3C5-E25F51701EEC}" path="ExcelUtils.js" />
+			<child name="SendMailUtils" key="{E2326280-DD12-49F6-BEDE-302456828B26}" path="SendMailUtils.js" />
+		</folder>
+	</children>
+</Root>

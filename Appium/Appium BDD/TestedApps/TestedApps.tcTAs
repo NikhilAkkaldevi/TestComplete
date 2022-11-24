@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{ACEE63CA-4504-4A38-81A8-9BD5D31EB299}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{71222311-34BB-4F77-95DD-5DCE99BA8F4A}">
+			<config nodeName="Appium" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-cdpAutoSetPort" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
+					<param name="Simple" fileName="Appium.exe" filePath="C:\Users\n.akkaldevi\AppData\Local\Programs\Appium\" parameters="-cdpAutoSetPort" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

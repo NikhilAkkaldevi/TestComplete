@@ -1,0 +1,12 @@
+﻿//USEUNIT LandingPage
+
+Given("Verify the logo", function ()
+{
+  LandingPage.verifyLogo();
+});
+
+
+function verify_appium_logo()
+{   
+    LandingPage.verifyLogo();
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="Base">
+		<Feature Path="Setup.feature" />
+	</Folder>
+	<Folder Name="Pages">
+		<Feature Path="Advanced.feature" />
+		<Feature Path="Landing.feature" />
+		<Feature Path="Presets.feature" />
+		<Feature Path="ServerIsRunning.feature" />
+		<Feature Path="Simple.feature" />
+	</Folder>
+</Scenarios>

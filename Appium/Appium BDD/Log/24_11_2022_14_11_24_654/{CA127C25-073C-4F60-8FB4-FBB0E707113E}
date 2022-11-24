@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 38">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page.FindElement&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="stack end" type="I" value="39"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stack beginning" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;contentText&quot; method or property of the &quot;Process(&quot;Appium&quot;).Page.FindElement&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915642477"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Given Click on the presents button"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5914818519"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="stack end" type="I" value="34"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stack beginning" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;FindElement&quot; method or property of the &quot;Process(&quot;Appium&quot;).Page&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915620486"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="stacktext" type="S" value="clickBtn"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Page(&quot;*&quot;)&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;FindElement&quot; method or property of the &quot;Page(&quot;*&quot;)&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915522338"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Unable to find the object Page(&quot;*&quot;). See Details for additional information."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915504051"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 3" type="S" value="{049A1F40-B4BA-4079-946B-4435068C128B}"/>
+			<Prp name="unit 1" type="S" value="{B2D8F713-5CB3-412A-9780-380967D70AB9}"/>
+			<Prp name="unit 0" type="S" value="Appium BDD\Scenarios\Presets.feature"/>
+			<Prp name="unit 2" type="S" value="{BB25F358-282D-4851-AA2F-14CDFFE71A40}"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 44">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 28">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Button is not existed"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="stack end" type="I" value="14"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915543056"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Given Click on the presents button"/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="TypeError: Illegal invocation"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="44"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="stack beginning" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915665625"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Process(&quot;Appium&quot;)&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="stack end" type="I" value="24"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="stack beginning" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Page&quot; method or property of the &quot;Process(&quot;Appium&quot;)&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.591557963"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Appium&quot; was not found."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="stack beginning" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Name = Appium, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915563542"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="stacktext" type="S" value="clickBtn"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="clickBtn"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="stacktext" type="S" value="waitForElement"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Verify the text is displayed or not"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Verify the text is displayed or not"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5914809375"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Process(&quot;Appium&quot;).Page&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="stack beginning" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WaitElement&quot; method or property of the &quot;Process(&quot;Appium&quot;).Page&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44889.5915602894"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="stacktext" type="S" value="clickOnPresetsBtn"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

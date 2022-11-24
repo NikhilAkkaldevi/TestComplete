@@ -1,0 +1,11 @@
+﻿Given("some precondition", function (){
+  throw new NotImplementedError();
+});
+
+When("an action is performed", function (){
+  throw new NotImplementedError();
+});
+
+Then("validate a condition", function (){
+  throw new NotImplementedError();
+});
