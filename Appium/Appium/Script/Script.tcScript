@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Base">
+			<child name="SetupPage" key="{F8421AF2-694B-46B0-834F-8A32FBD86CEF}" path="SetupPage.js" />
+		</folder>
+		<folder name="TestCases">
+			<child name="AdvancedPageTest" key="{393F6D1D-B728-4C45-A03E-7A7369E32308}" path="AdvancedPageTest.js" />
+			<child name="PresetsPageTest" key="{3CC926EB-2C31-486E-B8B6-08A0A50918D8}" path="PresetsPageTest.js" />
+			<child name="LandingPageTest" key="{E89E2F21-7B84-4632-8498-E8D30999692C}" path="LandingPageTest.js" />
+			<child name="ServerIsRunningPageTest" key="{18DA2115-CFCC-4324-A564-AC0DA54AB683}" path="ServerIsRunningPageTest.js" />
+			<child name="SimplePageTest" key="{778DEE88-0D81-4B8E-AD0E-B01D461B8A23}" path="SimplePageTest.js" />
+		</folder>
+		<folder name="Utility">
+			<child name="Action" key="{72E17EE1-0858-4918-9E86-E096CFE5E7EF}" path="Action.js" />
+		</folder>
+		<folder name="Pages">
+			<child name="AdvancedPage" key="{CD558F83-9D3D-4BD2-B6C5-3536C9802FAA}" path="AdvancedPage.js" />
+			<child name="LandingPage" key="{BA19C70F-A421-4632-9B5E-658F826DC5E3}" path="LandingPage.js" />
+			<child name="PresetsPage" key="{7E433C28-A1FB-4836-8748-13521B4ECB96}" path="PresetsPage.js" />
+			<child name="ServerIsRunningPage" key="{DE461FBA-023B-495A-83F6-CE9613B9E1EB}" path="ServerIsRunningPage.js" />
+			<child name="SimplePage" key="{FF367018-A884-4CDA-AB75-9A6B5440C740}" path="SimplePage.js" />
+		</folder>
+	</children>
+</Root>
